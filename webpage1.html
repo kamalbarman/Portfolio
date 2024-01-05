@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        * {
+            background-color: #0a102f;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-right: 2.8rem;
+        }
+
+        .card1 {
+            background-color: #ffffff;
+            width: 300px;
+            border-radius: 0.5rem;
+            margin-left: 1.5rem;
+            margin-top: 1rem;
+        }
+        .card1 a{
+            text-decoration: none;
+        }
+        .card-img1 {
+            width: 100%;
+            border-radius: 0.5rem;
+            border-bottom-left-radius: 0rem;
+            border-bottom-right-radius: 0rem;
+
+        }
+
+        .card-info1 {
+            text-decoration: none;
+            border-radius: 0.5rem;
+            background-color: white;
+            margin-left: 0.5rem;
+            color: rgb(5, 0, 0);
+        }
+
+        .card-title1 {
+            border-radius: 0.5rem;
+            background-color: white;
+            color: rgb(0, 0, 0);
+            margin-left: 0.5rem;
+        }
+
+        .card2 {
+            background-color: #ffffff;
+            width: 300px;
+            border-radius: 0.5rem;
+            margin-left: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .card-img2 {
+            height: 12.5rem;
+            width: 100%;
+            border-radius: 0.5rem;
+            border-bottom-left-radius: 0rem;
+            border-bottom-right-radius: 0rem;
+
+        }
+
+        .card-info2 {
+            border-radius: 0.5rem;
+            background-color: white;
+            color: black;
+            margin-left: 0.5rem;
+
+        }
+
+        .card-title2 {
+            border-radius: 0.5rem;
+            background-color: white;
+            color: black;
+            margin-left: 0.5rem;
+        }
+
+        .card2 a {
+            text-decoration: none;
+        }
+
+        .card3 a {
+            text-decoration: none;
+        }
+
+        .card3 {
+            background-color: #ffffff;
+            width: 300px;
+            border-radius: 0.5rem;
+            margin-left: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .card-img3 {
+            height: 81.3%;
+            width: 100%;
+            border-radius: 0.5rem;
+            border-bottom-left-radius: 0rem;
+            border-bottom-right-radius: 0rem;
+
+        }
+
+        .card-info3 {
+            border-radius: 0.5rem;
+            background-color: white;
+            color: black;
+            margin-left: 0.5rem;
+
+        }
+
+        .card-title3 {
+            border-radius: 0.5rem;
+            background-color: white;
+            color: rgb(0, 0, 0);
+            margin-left: 0.5rem;
+        }
+
+        .sidebar {
+            margin: 0;
+            padding: 0;
+            width: 9rem;
+            background-color: #1a214a;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .sidebar a {
+            background-color: #1a214a;
+            display: block;
+            color: rgb(255, 255, 255);
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        .sidebar a.active {
+            background-color: #04AA6D;
+            color: white;
+            width: 26%;
+            margin: 1rem 0 0 1rem;
+            /* border-radius-left: 50%; */
+            border-top-left-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 15%;
+            border-top-right-radius: 15%;
+
+        }
+
+        /* .sidebar  */
+
+        /* .sidebar a:hover:not(.active) {
+            background-color: #14102d;
+            color: white;
+        } */
+        .sidebar a.upcoming{
+           margin-left: rem;
+        }
+
+        .sidebar ul li{
+            background-color: #1a214a;
+            margin-left: 1rem;
+            list-style: none;
+            color: rgb(141, 139, 139);
+        }
+        .sidebar ul{
+            background-color: #1a214a;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sidebar -->
+
+    <div class="sidebar">
+        <a class="active" href="index.html">Home</a>
+        <a class="upcoming">Upcoming Project</a>
+        <!-- <a href="#"></a>
+        <a href="#"></a> -->
+
+        <ul>
+            <li>portfolio</li>
+        </ul>
+    </div>
+
+
+
+
+
+    <div class="cards-container">
+
+        <div class="card1">
+            <a href="https://github.com/kamalbarman/Spotify-Clone" target="_blank"><img src="assets/spotify.png"
+                    class="card-img1" alt="">
+                <p class="card-title1">Soptify Clone</p>
+                <p class="card-info1">Html,Css</p>
+            </a>
+        </div>
+
+        <div class="card2">
+            <a href="https://github.com/kamalbarman/Netflix-Clone" target="_blank"> <img src="assets/netflix.jpg"
+                    class="card-img2" alt="">
+                <p class="card-title2">Soptify Clone</p>
+                <p class="card-info2">Html,Css</p>
+            </a>
+        </div>
+
+
+        <div class="card3">
+            <a href="https://github.com/kamalbarman/first-mini-project" target="_blank"><img src="assets/front.png"
+                    class="card-img3" alt="">
+                <p class="card-title3">barsic Project</p>
+                <p class="card-info3">Html,Css</p>
+            </a>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: #424769; */
+  background-color: #081B29;
+  color: white;
+  font-family: 'Poppins', 'Montserrat' ;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3.5rem;
+  background-color: #2D3250;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(159, 159, 179);
+  font-size: 1.05rem;
+} 
+
+main hr{
+  border: 0;
+  background-color: #7d7ba5;
+  height: 1.2px;
+  margin: -36px 84px;
+}
+.myname{
+  color: white;
+  margin-bottom: rem;
+}
+
+#info{
+  display: none;
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  /* transform: translate(60%); */
+  background-color: #000;
+  color: white;
+  word-wrap: break-word;
+  padding: .5em;
+  z-index: -1;
+
+  
+}
+#info:hover{
+  z-index: 1;
+}
+
+
+
+
+.left img {
+  margin-left: 1px;
+  display: flex;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  width: 2.5rem;
+  display: flex;
+}
+
+.left {
+  display: flex;
+  font-size: 1.8rem;
+  justify-content: space-between;
+  margin-left: 4rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
+
+  /* background-color: red; */
+}
+
+.firstsection>div {
+  width: 30%;
+
+}
+
+.rightsection img {
+  width: 90%;
+  /* margin: 50% 0 0 0;  */
+}
+
+
+.leftsection {
+  font-size: 2.5rem;
+  /* margin: 70px 0; */
+}
+
+.leftsection .button{
+  padding: 20px 0;
+}
+
+.leftsection .btn{
+  background: #2e3770;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 1.02rem;
+  cursor: pointer;
+  /* margin: 70px 0; */
+}
+
+.kamal {
+  color: #F6B17A;
+  font-family: 'Poppins';
+}
+
+#element{
+  color: #F6B17A;
+}
+
+.secondsection{
+  max-width: 80vw;
+  margin: auto;
+}
+
+.socila{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.linkedin img{
+  margin-top: 5.8px;
+  height: 1.8rem;
+}
+.instagram img{
+  margin-top: 5.8px;
+  height: 1.8rem;
+}
